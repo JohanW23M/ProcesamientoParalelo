@@ -29,7 +29,7 @@ print(f"Sistema Operativo: {os.name}")
 
 ## 3. Definición de la Carga de Trabajo ()
 
-La variable **** define la magnitud del volumen de datos a procesar (iteraciones). En esta práctica, el valor de  debe ajustarse proporcionalmente a la capacidad de cómputo del hardware: un  elevado permite que el tiempo de ejecución útil supere los costos de latencia por orquestación de procesos.
+La variable **N** define la magnitud del volumen de datos a procesar (iteraciones). En esta práctica, el valor de  debe ajustarse proporcionalmente a la capacidad de cómputo del hardware: un  elevado permite que el tiempo de ejecución útil supere los costos de latencia por orquestación de procesos.
 
 ```python
 # Magnitud de la carga de trabajo (ajustada para stress-testing)
