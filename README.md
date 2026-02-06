@@ -176,4 +176,3 @@ Recomendación para el Análisis del Informe
 Como verás en los datos de tus compañeros (como el caso de Alejandro que obtuvo un 0.40x con 12 núcleos), en tareas con un N relativamente bajo o en entornos con pocos núcleos (Colab), es normal que el tiempo paralelo sea mayor que el secuencial.
 
 Esto sucede por el Overhead de coordinación: el tiempo que el sistema operativo pierde creando procesos y repartiendo datos en Google Colab es mayor que el tiempo de cálculo real, ya que solo hay 2 núcleos para procesar. Puedes usar esta observación técnica para completar las "Respuestas Generales al Cuestionario".
----
